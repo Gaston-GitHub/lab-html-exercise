@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  background-color: white;
+  
+} 
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .searchbutton {
+    background-color: red;
+    color: white;
+  }
+
+  .logo-npm {
+    width: 30px;
+  }
+
+  .search-bar {
+    width: 80%;
+  }
+
+  .build {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(209, 192, 192, 0.3);
+    
+  }
+
+  .txtbuild {
+    font-size: 5em;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+.ptxt {
+  text-align: center;
+  color:black;
+  width: 40%;
+  margin: auto;
+}
+
+.buttonseeplans {
+  background-color:#FB3B49;
+  color: white;
+  padding:10px 30px;
+  border:0px solid;
+  margin-top:20px;
+  box-shadow:8px 8px 0 rgba(251,59,73,.2);
+  width: 40%;
+  
+  
+  
+}
+
+.buttonjoinforfree {
+  background-color: rgba(209, 192, 192, 0);
+  padding: 10px 30px;
+  color: black;
+  border: 0px solid;
+  margin-top:20px;
+  width: 40%;
+  align-items: center;
+  
+  
+}
+.buttongroup {
+
+  width:40%;
+  display: flex;
+  justify-content: space-between;
+}
