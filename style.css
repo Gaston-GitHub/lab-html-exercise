@@ -142,31 +142,26 @@ header > div {
   flex-direction: row;
   align-content: center;
   justify-content: space-around;
+  margin: 50px;
+
   
 }
 
-.zero-configuration {
-  width: 30px; 
-  color:black;
+.img-config {
+  width: 30px;
+  color: black;
+}
+
+.box-config {
+  
+  width: 25%;
+  color: black;
+}
+
+
 
   
 
-}
-.team-management {
-  width: 30px;
-  color:black;
-  
-}
-.familiar-features {
-  width: 30px;
-  color:black;
-  
-}
-.npm-audit {
-  width: 30px;
-  color:black;
-  
-}
 
 .createandorg {
   background-color:black;
@@ -189,7 +184,7 @@ header > div {
 }
 
 .lasttxt {
-  width: 40%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
